@@ -23,7 +23,7 @@
   ],
   "packageManager": "pnpm@10.7.0",
   "scripts": {
-    "preinstall": "./scripts/check-packagemanager.sh",
+    "preinstall": "bash ./scripts/check-packagemanager.sh",
     "build": "nx run-many --outputStyle=static -t build",
     "test": "nx run-many -t test",
     "test-e2e": "nx run-many -t test-e2e",
